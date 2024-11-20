@@ -5,12 +5,14 @@ document.getElementById('loginForm')?.addEventListener('submit', function (e) {
     e.preventDefault();
     // Implement actual login logic here
     alert('Logged in successfully!');
+    window.location.href = 'analyzer.html';
 });
 
 document.getElementById('registerForm')?.addEventListener('submit', function (e) {
     e.preventDefault();
     // Implement actual registration logic here
     alert('Registered successfully!');
+    window.location.href = 'analyzer.html';
 });
 
 // Password analysis function
